@@ -326,19 +326,31 @@ input[name='q']::placeholder {
     }
 }
 
-.blur-background {
-    position: fixed;
+.carousel-item {
+    position: relative;
+}
+
+.carousel-item::before {
+    content: "";
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: inherit;
-    filter: blur(5px);
-    z-index: 10;
-    pointer-events: none; 
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 1;
 }
 
-/* Стиль для меню */
-.dropdown-menu {
-    z-index: 11;
-}
+.carousel-item img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .custom-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 3;
+  }
+
