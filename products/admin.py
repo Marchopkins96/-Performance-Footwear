@@ -1,24 +1,36 @@
 from django.contrib import admin
-from .models import Product, Category, ProductVariant
+from .models import Product, Category, Brand, ProductVariant
+from django_summernote.admin import SummernoteModelAdmin
+
 
 class ProductVariantInline(admin.StackedInline):
     model = ProductVariant
     extra = 1
 
 
-class ProductAdmin(admin.ModelAdmin):
-    list_display = (
-        'sku',
+class ProductAdmin(SummernoteModelAdmin, admin.ModelAdmin):
+
+    search_fields = [
         'name',
+    ]
+
+    list_display = (
+        'name',
+        'gender',
         'category',
         'price',
         'sale_price',
         'rating',
-        'image',
+        'brand',
+        'on_sale',
+        'created_on',
+    )
+    summernote_fields = ("materials",)
+    list_editable = (
+        "on_sale",
     )
 
-    ordering = ('sku',)
-    inlines = [ProductVariantInline]
+    ordering = ("name",)
 
 class CategoryAdmin(admin.ModelAdmin):
     list_display = (
@@ -32,12 +44,17 @@ class ProductVariantAdmin(admin.ModelAdmin):
         'product',
         'men_shoe_size',
         'women_shoe_size',
-        'color',
         'stock_quantity',
-        'gender',
+    )
+
+class BrandAdmin(admin.ModelAdmin):
+    list_display = (
+        "friendly_name",
+        "name",
     )
 
 
 admin.site.register(Product, ProductAdmin)
 admin.site.register(Category, CategoryAdmin)
 admin.site.register(ProductVariant, ProductVariantAdmin)
+admin.site.register(Brand, BrandAdmin)
