@@ -59,9 +59,6 @@ class Product(models.Model):
         if self.price < 0:
             raise ValidationError("Price cannot be negative.")
 
-    @property
-    def sale_price(self):
-        return (self.price) - (self.discounted_price)
 
     def __str__(self):
         return self.name
