@@ -12,14 +12,14 @@
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
                 <div class="row">
                     <div class="col">
-                        <h6 class="dropdown-header">Trainers</h6>
-                        <a href="{% url 'products' %}?category=trainers&gender=men" class="dropdown-item">All Trainers</a>
+                        <h6 class="dropdown-header">Footwear</h6>
+                        <a href="{% url 'products' %}?category=mens_trainers&gender=men" class="dropdown-item">Trainers</a>
                     </div>
                     <div class="col">
                         <h6 class="dropdown-header">Accessories</h6>
-                        <a href="{% url 'products' %}?category=socks&gender=men" class="dropdown-item">Socks</a>
-                        <a href="{% url 'products' %}?category=water_bottles&gender=men" class="dropdown-item">Water Bottles</a>
-                        <a href="{% url 'products' %}?category=socks,water_bottles&gender=men" class="dropdown-item">All Accessories</a>
+                        <a href="{% url 'products' %}?category=mens_socks&gender=men" class="dropdown-item">Socks</a>
+                        <a href="{% url 'products' %}?category=mens_water_bottles&gender=men" class="dropdown-item">Water Bottles</a>
+                        <a href="{% url 'products' %}?category=mens_socks,mens_water_bottles&gender=men" class="dropdown-item">All Accessories</a>
                     </div>
                 </div>
             </div>
@@ -32,14 +32,14 @@
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
                 <div class="row">
                     <div class="col">
-                        <h6 class="dropdown-header">Trainers</h6>
-                        <a href="{% url 'products' %}?category=trainers&gender=women" class="dropdown-item">All Trainers</a>
+                        <h6 class="dropdown-header">Footwear</h6>
+                        <a href="{% url 'products' %}?category=womens_trainers&gender=women" class="dropdown-item">Trainers</a>
                     </div>
                     <div class="col">
                         <h6 class="dropdown-header">Accessories</h6>
-                        <a href="{% url 'products' %}?category=socks&gender=women" class="dropdown-item">Socks</a>
-                        <a href="{% url 'products' %}?category=water_bottles&gender=women" class="dropdown-item">Water Bottles</a>
-                        <a href="{% url 'products' %}?category=socks,water_bottles&gender=women" class="dropdown-item">All Accessories</a>
+                        <a href="{% url 'products' %}?category=womens_socks&gender=women" class="dropdown-item">Socks</a>
+                        <a href="{% url 'products' %}?category=womens_water_bottles&gender=women" class="dropdown-item">Water Bottles</a>
+                        <a href="{% url 'products' %}?category=womens_socks,womens_water_bottles&gender=women" class="dropdown-item">All Accessories</a>
                     </div>
                 </div>
             </div>
@@ -61,7 +61,7 @@
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black" href="#" id="specials-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-danger" href="#" id="specials-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Sale
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
