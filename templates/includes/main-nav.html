@@ -13,13 +13,13 @@
                 <div class="row">
                     <div class="col">
                         <h6 class="dropdown-header">Trainers</h6>
-                        <a href="{% url 'products' %}?gender=men&category=all_trainers" class="dropdown-item">All Trainers</a>
+                        <a href="{% url 'products' %}?category=trainers&gender=men" class="dropdown-item">All Trainers</a>
                     </div>
                     <div class="col">
                         <h6 class="dropdown-header">Accessories</h6>
-                        <a href="{% url 'products' %}?gender=men&category=socks" class="dropdown-item">Socks</a>
-                        <a href="{% url 'products' %}?gender=men&category=water_bottles" class="dropdown-item">Water Bottles</a>
-                        <a href="{% url 'products' %}?gender=men&category=socks, water_bottles" class="dropdown-item">All Accessories</a>
+                        <a href="{% url 'products' %}?category=socks&gender=men" class="dropdown-item">Socks</a>
+                        <a href="{% url 'products' %}?category=water_bottles&gender=men" class="dropdown-item">Water Bottles</a>
+                        <a href="{% url 'products' %}?category=socks,water_bottles&gender=men" class="dropdown-item">All Accessories</a>
                     </div>
                 </div>
             </div>
@@ -33,13 +33,13 @@
                 <div class="row">
                     <div class="col">
                         <h6 class="dropdown-header">Trainers</h6>
-                        <a href="{% url 'products' %}?gender=women&category=all_trainers" class="dropdown-item">All Trainers</a>
+                        <a href="{% url 'products' %}?category=trainers&gender=women" class="dropdown-item">All Trainers</a>
                     </div>
                     <div class="col">
                         <h6 class="dropdown-header">Accessories</h6>
-                        <a href="{% url 'products' %}?gender=women&category=socks" class="dropdown-item">Socks</a>
-                        <a href="{% url 'products' %}?gender=women&category=water_bottles" class="dropdown-item">Water Bottles</a>
-                        <a href="{% url 'products' %}?gender=women&category=socks, water_bottles" class="dropdown-item">All Accessories</a>
+                        <a href="{% url 'products' %}?category=socks&gender=women" class="dropdown-item">Socks</a>
+                        <a href="{% url 'products' %}?category=water_bottles&gender=women" class="dropdown-item">Water Bottles</a>
+                        <a href="{% url 'products' %}?category=socks,water_bottles&gender=women" class="dropdown-item">All Accessories</a>
                     </div>
                 </div>
             </div>
@@ -70,7 +70,7 @@
                         <h6 class="dropdown-header">Sale</h6>
                         <a href="{% url 'products' %}?gender=men&category=mens_sale" class="dropdown-item">Mens Sale Items</a>
                         <a href="{% url 'products' %}?gender=womens&category=womens_sale" class="dropdown-item">Womens Sale Items</a>
-                        <a href="{% url 'products' %}?gender=men, women&category=mens_sale, womens_sale" class="dropdown-item">Shop All Sale Items</a>
+                        <a href="{% url 'products' %}?gender=men,women&category=mens_sale,womens_sale" class="dropdown-item">Shop All Sale Items</a>
                     </div>
                 </div>
             </div>
