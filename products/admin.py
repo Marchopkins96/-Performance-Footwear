@@ -24,6 +24,7 @@ class ProductAdmin(SummernoteModelAdmin, admin.ModelAdmin):
         'brand',
         'on_sale',
         'created_on',
+        'country_origin',
     )
     summernote_fields = ("materials",)
     list_editable = (
