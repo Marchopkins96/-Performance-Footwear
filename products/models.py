@@ -52,7 +52,7 @@ class Product(models.Model):
     gender = models.CharField(max_length=10, choices=GENDER_CHOICES,
                               null=True, blank=True)
     materials = models.TextField(null=True, blank=True)
-    country_origin = CountryField(null=True)
+    country_origin = CountryField(blank_label='Country *', null=False, blank=False)
 
     def clean(self):
         if self.price < 0:
