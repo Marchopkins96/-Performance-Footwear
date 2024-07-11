@@ -3,7 +3,7 @@ from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from django.db.models import Q
 from django.db.models.functions import Lower
-from .models import Product, Category
+from .models import Product, Brand, Category
 from .forms import ProductForm
 
 def all_products(request):
@@ -13,6 +13,7 @@ def all_products(request):
     categories = None
     sort = None
     direction = None
+    brand = None
 
     if request.GET:
         if 'sort' in request.GET:
@@ -21,7 +22,10 @@ def all_products(request):
             if sortkey == 'name':
                 sortkey = 'lower_name'
                 products = products.annotate(lower_name=Lower('name'))
-            if sortkey == 'category':
+            elif sortkey == 'brand':
+                sortkey = 'brand__name'
+                products = products.annotate(lower_brand=Lower('brand__name'))
+            elif sortkey == 'category':
                 sortkey = 'category__name'
             if 'direction' in request.GET:
                 direction = request.GET['direction']
@@ -29,10 +33,21 @@ def all_products(request):
                     sortkey = f'-{sortkey}'
             products = products.order_by(sortkey)
 
+        if 'gender' in request.GET:
+            gender = request.GET['gender']
+            if gender:
+                products = products.filter(gender=gender)
+        
         if 'category' in request.GET:
             categories = request.GET['category'].split(',')
             products = products.filter(category__name__in=categories)
             categories = Category.objects.filter(name__in=categories)
+
+        if "brand" in request.GET:
+            brand = request.GET["brand"]
+            products = products.filter(brand__name=brand)
+            brand = get_object_or_404(Brand, name=brand)
+            title = brand.get_friendly_name()
 
         if 'q' in request.GET:
             query = request.GET['q']
@@ -50,6 +65,7 @@ def all_products(request):
         'search_term': query,
         'current_categories': categories,
         'current_sorting': current_sorting,
+        "brand": brand,
     }
 
     return render(request, 'products/products.html', context)

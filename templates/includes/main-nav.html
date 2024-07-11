@@ -56,7 +56,6 @@
                         <a href="{% url 'products' %}?brand=mens_nike" class="dropdown-item">Mens Nike</a>
                         <a href="{% url 'products' %}?brand=womens_new_balance" class="dropdown-item">Womens New Balance</a>
                         <a href="{% url 'products' %}?brand=womens_nike" class="dropdown-item">Womens Nike</a>
-                        <a href="{% url 'products' %}?brand=mens_nike,womens_nike,mens_new_balance,womens_new_balance" class="dropdown-item">All Brands</a>
                     </div>
                 </div>
             </div>
@@ -70,9 +69,9 @@
                 <div class="row">
                     <div class="col">
                         <h6 class="dropdown-header">Sale</h6>
-                        <a href="{% url 'products' %}?gender=men&category=mens_sale" class="dropdown-item">Mens Sale Items</a>
-                        <a href="{% url 'products' %}?gender=womens&category=womens_sale" class="dropdown-item">Womens Sale Items</a>
-                        <a href="{% url 'products' %}?gender=men,women&category=mens_sale,womens_sale" class="dropdown-item">Shop All Sale Items</a>
+                        <a href="{% url 'products' %}?category=mens_sale" class="dropdown-item">Mens Sale Items</a>
+                        <a href="{% url 'products' %}?category=womens_sale" class="dropdown-item">Womens Sale Items</a>
+                        <a href="{% url 'products' %}?category=mens_sale,womens_sale" class="dropdown-item">Shop All Sale Items</a>
                     </div>
                 </div>
             </div>
