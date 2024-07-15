@@ -31,7 +31,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # DEBUG = True
 DEBUG = 'DEVELOPMENT' in os.environ
 
-ALLOWED_HOSTS = ['8000-marchopkins-performance-r6zs2ybvt6o.ws.codeinstitute-ide.net',]
+ALLOWED_HOSTS = ['8000-marchopkins-performance-r6zs2ybvt6o.ws.codeinstitute-ide.net', 'performance-footwear-ed28bb401f1b.herokuapp.com',]
 
 
 # Application definition
