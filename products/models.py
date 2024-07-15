@@ -4,7 +4,7 @@ from django.utils import timezone
 from django.core.exceptions import ValidationError
 
 from django.contrib.auth.models import User
-# from profiles.models import UserProfile
+from profiles.models import UserProfile
 from django_summernote.fields import SummernoteTextField
 from django_countries.fields import CountryField
 
