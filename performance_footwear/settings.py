@@ -56,6 +56,7 @@ INSTALLED_APPS = [
     'django_summernote',
     'django_countries',
     'storages',
+    'wishlist',
 ]
 
 MIDDLEWARE = [
