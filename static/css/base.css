@@ -383,6 +383,11 @@ footer {
     color: black;
 }
 
+.price-font-original {
+    color: #6c757d;
+    text-decoration: line-through;
+}
+
 /* Mail Chimp */
 #mc_embed_signup form {
     display: block;
