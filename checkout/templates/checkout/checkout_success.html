@@ -62,12 +62,12 @@
                     <div class="row">
                         <div class="col-12 col-md-4">
                             <p class="small mb-0 text-black font-weight-bold">
-                                {{ item.product.name }}{% if item.product_size %} - Size {{ item.product.size|upper }}{% endif %}
+                                {{ item.product.name }}{% if item.product_size %} - Size {{ item.product.size }}{% endif %}
                             </p>
                         </div>
                         <div class="col-12 col-md-8 text-md-right">
                             {% if item.product.on_sale %}
-                            <p class="small mb-0">{{ item.quantity }} @ £{{ item.price }} each</p>
+                            <p class="small mb-0">{{ item.quantity }} @ £{{ item.product.sale_price }} each</p>
                             {% else %}
                             <p class="small mb-0">{{ item.quantity }} @ £{{ item.product.price }} each</p>
                             {% endif %}
@@ -170,7 +170,7 @@
                             <p class="mb-0 text-black font-weight-bold">Order Total</p>
                         </div>
                         <div class="col-12 col-md-8 text-md-right">
-                            <p class="mb-0">{{ order.order_total|floatformat:2 }}</p>
+                            <p class="mb-0">£{{ order.order_total|floatformat:2 }}</p>
                         </div>
                     </div>
 
@@ -179,7 +179,7 @@
                             <p class="mb-0 text-black font-weight-bold">Delivery</p>
                         </div>
                         <div class="col-12 col-md-8 text-md-right">
-                            <p class="mb-0">{{ order.delivery_cost|floatformat:2 }}</p>
+                            <p class="mb-0">£{{ order.delivery_cost|floatformat:2 }}</p>
                         </div>
                     </div>
 
@@ -188,7 +188,7 @@
                             <p class="mb-0 text-black font-weight-bold">Grand Total</p>
                         </div>
                         <div class="col-12 col-md-8 text-md-right">
-                            <p class="mb-0">{{ order.grand_total|floatformat:2 }}</p>
+                            <p class="mb-0">£{{ order.grand_total|floatformat:2 }}</p>
                         </div>
                     </div>
                 </div>
