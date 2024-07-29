@@ -148,8 +148,11 @@
     {% block page_header %}
     {% endblock %}
 
-    {% block content %}
-    {% endblock %}
+    <!-- Main content section -->
+    <main class="content">
+        {% block content %}
+        {% endblock %}
+    </main>
 
     <!-- Footer section -->
     {% include 'includes/footer.html' %}
