@@ -365,12 +365,12 @@ footer {
     z-index: 3;
 }
 
-/*.fa-brands {
+.fa-brands {
     color: white;
     font-size: 24px;
 }
 
-/*.wishlist-badge {
+.wishlist-badge {
     position: absolute;
     font-size: 1.25em;
     left: 20px;
@@ -379,16 +379,16 @@ footer {
     color: black;
 }
 
-/*.wishlist-icon {
+.wishlist-icon {
     color: black;
 }
 
-/*.price-font-original {
+.price-font-original {
     color: #6c757d;
     text-decoration: line-through;
 }
 
-/*
+
 #mc_embed_signup form {
     display: block;
     position: relative;
@@ -405,8 +405,6 @@ footer {
     margin: 0;
     font-weight: normal;
 }
-
-
 
 #mc_embed_signup .helper_text {
     display: none;
