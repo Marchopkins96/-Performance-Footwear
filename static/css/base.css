@@ -3,11 +3,17 @@ html {
 }
 
 body {
+    display: flex;
+    flex-direction: column;
     background-color: #f1f1f1;
     background-size: cover;
     height: calc(100vh - 164px);
     color: #000000;
     font-family: 'Lato';
+}
+
+.content {
+    flex: 1 0 auto;
 }
 
 /* from Bulma */
