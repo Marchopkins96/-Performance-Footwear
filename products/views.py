@@ -7,8 +7,11 @@ from django.contrib.auth.decorators import login_required
 from django.db import IntegrityError
 from django.db.models import Q
 from django.db.models.functions import Lower
-from .models import Product, Brand, Category
-from .forms import ProductForm
+
+from .models import Product, Brand, Category, Reviews
+from .forms import ProductForm, ReviewsForm
+from profiles.models import UserProfile
+from wishlist.models import Wishlist
 
 def all_products(request):
 
