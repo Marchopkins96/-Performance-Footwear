@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Product, Category, Brand, ProductVariant
+from .models import Product, Category, Brand, ProductVariant, Reviews
 from django_summernote.admin import SummernoteModelAdmin
 
 
@@ -54,8 +54,19 @@ class BrandAdmin(admin.ModelAdmin):
         "name",
     )
 
+class ReviewsAdmin(admin.ModelAdmin):
+    list_display = (
+        "product",
+        "user",
+        "title",
+        "review",
+        "created_on",
+        "updated_on",
+    )
+
 
 admin.site.register(Product, ProductAdmin)
 admin.site.register(Category, CategoryAdmin)
 admin.site.register(ProductVariant, ProductVariantAdmin)
 admin.site.register(Brand, BrandAdmin)
+admin.site.register(Reviews, ReviewsAdmin)
