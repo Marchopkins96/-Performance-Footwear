@@ -388,7 +388,17 @@ footer {
     text-decoration: line-through;
 }
 
+.dropdown:hover .nav-link {
+    text-decoration: underline;
+    text-decoration-color: black;
+}
 
+.dropdown-menu {
+    display: none;
+}
+
+
+/* mailchimp */
 #mc_embed_signup form {
     display: block;
     position: relative;
