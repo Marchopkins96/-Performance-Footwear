@@ -122,8 +122,7 @@
         </div>
         <div id="delivery-banner" class="row text-center">
             <div class="col bg-black text-white">
-                <!--<h4 class="logo-font my-1">Free delivery on orders over £{{ free_delivery_threshold }}!</h4>-->
-                <h4 class="logo-font my-1">Strive For Greatness!</h4>               
+                <h4 id="carousel-text" class="logo-font my-1">Strive For Greatness!&nbsp;&nbsp;<span class="text-primary"><i class="fa-solid fa-medal"></i></span></h4>               
             </div>            
         </div>
     </header>
@@ -166,6 +165,30 @@
     <script type="text/javascript">
         $('.btt-link').click(function (e) {
             window.scrollTo(0, 0);
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            var textArray = [
+                "Strive For Greatness!&nbsp;&nbsp;<span class='text-primary'><i class='fa-solid fa-medal'></i></span>",
+                "FREE RETURNS & EXCHANGE",
+                "FREE DELIVERY ON ORDERS ORVER £50",
+            ];
+
+            var currentIndex = 0;
+            var delay = 3000;
+
+            function changeText() {
+                $("#carousel-text").fadeOut(500, function () {
+                    $(this).html(textArray[currentIndex]).fadeIn(500);
+                });
+
+                currentIndex = (currentIndex + 1) % textArray.length;
+
+                setTimeout(changeText, delay);
+            }
+
+            changeText();
         });
     </script>
     {% endblock %}
