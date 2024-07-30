@@ -286,7 +286,7 @@ footer {
     }
 
     .header-container {
-        padding-top: 164px;
+        padding-top: 130px;
     }
 }
 
@@ -521,6 +521,3 @@ footer a {
     text-align: center;
 }
 
-.accout-block{
-    display: flex;
-}
