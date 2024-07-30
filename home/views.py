@@ -14,6 +14,12 @@ def privacy_policy(request):
     return render(request, "home/privacy_policy.html")
 
 
+# View for rendering the returns page
+def returns(request):
+
+    return render(request, "home/returns.html")
+
+
 def contact(request):
     """
     View to return Contact Us form
