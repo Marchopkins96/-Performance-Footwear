@@ -444,6 +444,10 @@ contact .info-item {
     margin-bottom: 20px;
 }
 
+footer a {
+    color: gray !important;
+}
+
 /* mailchimp */
 #mc_embed_signup form {
     display: block;

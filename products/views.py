@@ -17,11 +17,17 @@ import random
 def all_products(request):
 
     products = Product.objects.all()
+    user = request.user
     query = None
     categories = None
     sort = None
     direction = None
     brand = None
+
+    if user.is_authenticated:
+        wishlist, created = Wishlist.objects.get_or_create(user=user)
+    else:
+        wishlist = None
 
     if request.GET:
         if 'sort' in request.GET:
@@ -47,9 +53,11 @@ def all_products(request):
                 products = products.filter(gender=gender)
         
         if 'category' in request.GET:
-            categories = request.GET['category'].split(',')
-            products = products.filter(category__name__in=categories)
-            categories = Category.objects.filter(name__in=categories)
+            categories = request.GET['category']
+            if categories:
+                categories = categories.split(',')
+                products = products.filter(category__name__in=categories)
+                categories = Category.objects.filter(name__in=categories)
 
         if "brand" in request.GET:
             brand = request.GET["brand"]
