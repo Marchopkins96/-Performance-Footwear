@@ -514,3 +514,9 @@ footer a {
 .btn:focus{
     box-shadow: none
 }
+
+#delivery-banner {
+    background: #000000;
+    color: white;
+    text-align: center;
+}
