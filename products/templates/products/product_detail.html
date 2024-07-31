@@ -99,20 +99,101 @@
                         <div class="form-row">
                             {% with product.has_sizes as s %}
                             {% if s %}
-                                <div class="col-12">
-                                    <p><strong>Size:</strong></p>
-                                    <select class="form-control rounded-0 w-50" name="product_size" id='id_product_size'>
-                                        <option value="Four">4</option>
-                                        <option value="Five">5</option>
-                                        <option value="Six" selected>6</option>
-                                        <option value="Seven">7</option>
-                                        <option value="Eight">8</option>
-                                        <option value="Nine">9</option>
-                                        <option value="Ten">10</option>
-                                        <option value="Eleven">11</option>
-                                        <option value="Twelve">12</option>
-                                    </select>
+                            <div class="col-12 accordion mb-4" id="accordionExample">
+                                <div class="card borderAccordion">
+                                    <div class="card-header bg-white" id="headingThree">
+                                        <h2 class="mb-0">
+                                            <button
+                                                class="btn btn-block d-flex justify-content-between align-items-center pl-0"
+                                                type="button" data-toggle="collapse" data-target="#collapseThree"
+                                                aria-expanded="true" aria-controls="collapseThree">
+                                                <strong>Country Of Origin</strong>
+                                                <span class="chevron-down"><i class="fa-solid fa-chevron-down"></i></span>
+                                                <span class="chevron-up" style="display: none;"><i
+                                                        class="fa-solid fa-chevron-up"></i></span>
+                                            </button>
+                                        </h2>
+                                    </div>
+                                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                        data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            {{ product.country_origin | safe}}
+                                        </div>
+                                    </div>
                                 </div>
+                                <div class="card borderAccordion">
+                                    <div class="card-header bg-white" id="headingTwo">
+                                        <h2 class="mb-0">
+                                          <button class="btn btn-block d-flex justify-content-between align-items-center pl-0" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            <strong>Materials</strong>
+                                            <span class="chevron-down"><i class="fa-solid fa-chevron-down"></i></span>
+                                            <span class="chevron-up" style="display: none;"><i class="fa-solid fa-chevron-up"></i></span>
+                                          </button>
+                                        </h2>
+                                    </div>
+                                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                        data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            {{ product.materials | safe}}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <p><strong>Size:</strong></p>
+                                <select class="form-control rounded-0 w-50" name="product_size" id='id_product_size'>
+                                    <option value="Four">4</option>
+                                    <option value="Five">5</option>
+                                    <option value="Six" selected>6</option>
+                                    <option value="Seven">7</option>
+                                    <option value="Eight">8</option>
+                                    <option value="Nine">9</option>
+                                    <option value="Ten">10</option>
+                                    <option value="Eleven">11</option>
+                                    <option value="Twelve">12</option>
+                                </select>
+                            </div>
+                            {% else %}
+                            <div class="col-12 accordion mb-4" id="accordionExample">
+                                <div class="card borderAccordion">
+                                    <div class="card-header bg-white" id="headingThree">
+                                        <h2 class="mb-0">
+                                            <button
+                                                class="btn btn-block d-flex justify-content-between align-items-center pl-0"
+                                                type="button" data-toggle="collapse" data-target="#collapseThree"
+                                                aria-expanded="true" aria-controls="collapseThree">
+                                                <strong>Country Of Origin</strong>
+                                                <span class="chevron-down"><i class="fa-solid fa-chevron-down"></i></span>
+                                                <span class="chevron-up" style="display: none;"><i
+                                                        class="fa-solid fa-chevron-up"></i></span>
+                                            </button>
+                                        </h2>
+                                    </div>
+                                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                        data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            {{ product.country_origin | safe}}
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card borderAccordion">
+                                    <div class="card-header bg-white" id="headingTwo">
+                                        <h2 class="mb-0">
+                                          <button class="btn btn-block d-flex justify-content-between align-items-center pl-0" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            <strong>Materials</strong>
+                                            <span class="chevron-down"><i class="fa-solid fa-chevron-down"></i></span>
+                                            <span class="chevron-up" style="display: none;"><i class="fa-solid fa-chevron-up"></i></span>
+                                          </button>
+                                        </h2>
+                                    </div>
+                                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                        data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            {{ product.materials | safe}}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                             {% endif %}
                             <div class="col-12">
                                 <p class="mt-3"><strong>Quantity:</strong></p>
