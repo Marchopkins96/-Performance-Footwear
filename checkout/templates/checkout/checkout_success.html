@@ -2,6 +2,7 @@
 {% load static %}
 
 {% block extra_css %}
+    <!-- Include additional CSS styles for this specific template -->
     <link rel="stylesheet" href="{% static 'checkout/css/checkout.css' %}">
 {% endblock %}
 
@@ -14,6 +15,7 @@
 {% endblock %}
 
 {% block content %}
+    <!-- Main content block for the checkout success page -->
     <div class="overlay"></div>
     <div class="container">
         <div class="row">
@@ -24,7 +26,7 @@
                 <p class="text-black">Your order information is below. A confirmation email will be sent to <strong>{{ order.email }}</strong>.</p>
             </div>
         </div>
-
+        <!-- Display order confirmation details in a structured format -->
         <div class="row">
             <div class="col-12 col-lg-7">
                 <div class="order-confirmation-wrapper p-2 border">
@@ -74,13 +76,13 @@
                         </div>
                     </div>
                     {% endfor %}
-
+                    <!-- Delivering To -->
                     <div class="row">
                         <div class="col">
                             <small class="text-muted">Delivering To:</small>
                         </div>
                     </div>
-
+                    <!-- Display delivery address details -->
                     <div class="row">
                         <div class="col-12 col-md-4">
                             <p class="mb-0 text-black font-weight-bold">Full Name</p>

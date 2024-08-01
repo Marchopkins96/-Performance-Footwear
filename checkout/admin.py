@@ -2,11 +2,17 @@ from django.contrib import admin
 from .models import Order, OrderLineItem
 
 class OrderLineItemAdminInline(admin.TabularInline):
+    """
+    Inline admin class for displaying OrderLineItem within Order admin.
+    """
     model = OrderLineItem
     readonly_fields = ('lineitem_total',)
 
 
 class OrderAdmin(admin.ModelAdmin):
+    """
+    Admin class for managing Order model in the Django admin interface.
+    """
     inlines = (OrderLineItemAdminInline,)
 
     readonly_fields = ('order_number', 'date',
@@ -27,4 +33,5 @@ class OrderAdmin(admin.ModelAdmin):
 
     ordering = ('-date',)
 
+# Registering the Order and OrderAdmin classes in the Django admin interface
 admin.site.register(Order, OrderAdmin)

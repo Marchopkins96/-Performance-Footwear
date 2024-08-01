@@ -33,6 +33,7 @@ def cache_checkout_data(request):
 
 
 def checkout(request):
+    # Retrieve Stripe public and secret keys from settings
     stripe_public_key = settings.STRIPE_PUBLIC_KEY
     stripe_secret_key = settings.STRIPE_SECRET_KEY
 
@@ -140,6 +141,7 @@ def checkout(request):
 
 
 def checkout_success(request, order_number):
+    # Retrieve 'save_info' from the session
     save_info = request.session.get('save_info')
     order = get_object_or_404(Order, order_number=order_number)
 
@@ -163,6 +165,7 @@ def checkout_success(request, order_number):
             if user_profile_form.is_valid():
                 user_profile_form.save()
 
+    # Display a success message with the order number
     messages.success(request, f'Order successfully processed! \
         Your order number is {order_number}. A confirmation \
         email will be sent to {order.email}.')
@@ -170,6 +173,7 @@ def checkout_success(request, order_number):
     if 'bag' in request.session:
         del request.session['bag']
 
+    # Render the checkout success template with the order context
     template = 'checkout/checkout_success.html'
     context = {
         'order': order,
