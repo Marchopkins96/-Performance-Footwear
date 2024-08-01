@@ -3,10 +3,11 @@ from products.models import Product
 from .forms import ContactForm
 from django.contrib import messages
 
+# View for rendering the home page
 def index(request):
     return render(request, 'home/index.html')
 
-
+# View for rendering the privacy policy page
 def privacy_policy(request):
     """
     FAQs Page
@@ -19,7 +20,7 @@ def returns(request):
 
     return render(request, "home/returns.html")
 
-
+# View for handling the contact form submission
 def contact(request):
     """
     View to return Contact Us form

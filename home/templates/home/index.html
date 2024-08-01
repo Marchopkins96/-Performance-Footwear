@@ -2,6 +2,7 @@
 {% load static %}
 
 {% block page_header %}
+  <!-- Header Section -->
     <div class="container header-container">
         <div class="row">
             <div class="col"></div>
@@ -10,7 +11,7 @@
 {% endblock %}
 
 {% block content %}
-
+  <!-- Carousel Section -->
   <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -47,26 +48,18 @@
     </button>
   </div>
 
-
-  <!-- Marketing messaging and featurettes
-================================================== -->
-<!-- Wrap the rest of the page in another container to center all the content. -->
-
+<!-- Marketing Section -->
 <div class=" container marketing bg-white">
-
-  <!-- START THE FEATURETTES -->
-
   <hr class="featurette-divider">
-
   <div class="row featurette">
-  <div class="col-md-7 align-items-center">
+    <div class="col-md-7 align-items-center">
       <h2 class="featurette-heading">Performance <span class="text-muted">Is Key</span></h2>
       <p class="lead">"To succeed…You need to find something to hold on to, something to motivate you, something to inspire you."</p>
       <br>
       <p class="lead">"Mental will is a muscle that needs exercise, just like muscles of the body."</p>
       <br>
       <p class="lead">"Nothing will work unless you do."</p>
-  </div>
+    </div>
   <div class="col-md-5">
     <img src="{% static 'images/runner-with-drink.jpeg' %}"
       class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500"
