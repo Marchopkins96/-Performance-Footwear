@@ -10,6 +10,9 @@ from django_countries.fields import CountryField
 
 
 class Category(models.Model):
+    """
+    Model for category
+    """
 
     class Meta:
         verbose_name_plural = 'Categories'
@@ -25,6 +28,9 @@ class Category(models.Model):
 
 
 class Product(models.Model):
+    """
+    Model for products
+    """
     GENDER_CHOICES = [
         ('men', 'men'),
         ('women', 'women'),
@@ -63,6 +69,9 @@ class Product(models.Model):
         return self.name
 
 class ProductVariant(models.Model):
+    """
+    Model representing a product variant
+    """
     SHOE_SIZE_CHOICES = [
         ('4', 'Four'),
         ('5', 'Five'),
@@ -93,6 +102,9 @@ class ProductVariant(models.Model):
 
 
 class Brand(models.Model):
+    """
+    Model for brand
+    """
     class Meta:
         verbose_name_plural = "Brands"
 
@@ -107,6 +119,9 @@ class Brand(models.Model):
 
 
 class Reviews(models.Model):
+    """
+    model to render review
+    """
 
     product = models.ForeignKey(Product, on_delete=models.CASCADE)
     user = models.ForeignKey(User, on_delete=models.CASCADE)
