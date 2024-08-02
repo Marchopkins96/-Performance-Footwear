@@ -1,11 +1,14 @@
-html {
-    height: 100%;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
     display: flex;
     flex-direction: column;
     background-color: #f1f1f1;
+    box-sizing: border-box;
     background-size: cover;
     height: calc(100vh - 164px);
     color: #000000;
@@ -16,7 +19,6 @@ body {
     flex: 1 0 auto;
 }
 
-/* from Bulma */
 .icon {
     align-items: center;
     display: inline-flex;
