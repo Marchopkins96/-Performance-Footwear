@@ -7,7 +7,7 @@ from django_countries.fields import CountryField
 
 
 class UserProfile(models.Model):
-
+    # One-to-One relationship with the User model
     user = models.OneToOneField(User, on_delete=models.CASCADE)
     default_phone_number = models.CharField(max_length=20, null=True, blank=True)
     default_street_address1 = models.CharField(max_length=80, null=True, blank=True)
@@ -20,7 +20,7 @@ class UserProfile(models.Model):
     def __str__(self):
         return self.user.username
 
-
+# Signal receiver to create or update user profile on User model save
 @receiver(post_save, sender=User)
 def create_or_update_user_profile(sender, instance, created, **kwargs):
     """

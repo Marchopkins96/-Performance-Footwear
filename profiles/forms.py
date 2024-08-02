@@ -13,6 +13,7 @@ class UserProfileForm(forms.ModelForm):
         labels and set autofocus on first field
         """
         super().__init__(*args, **kwargs)
+        # Define placeholders for form fields
         placeholders = {
             'default_phone_number': 'Phone Number',
             'default_postcode': 'Postal Code',
@@ -22,6 +23,7 @@ class UserProfileForm(forms.ModelForm):
             'default_county': 'County, State or Locality',
         }
 
+        # Set autofocus on the 'default_phone_number' field
         self.fields['default_phone_number'].widget.attrs['autofocus'] = True
         for field in self.fields:
             if field != 'default_country':
