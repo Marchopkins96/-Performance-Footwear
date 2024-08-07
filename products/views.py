@@ -82,6 +82,7 @@ def all_products(request):
         'current_categories': categories,
         'current_sorting': current_sorting,
         "brand": brand,
+        "wishlist": wishlist,
     }
 
     return render(request, 'products/products.html', context)
