@@ -202,3 +202,13 @@ View milestones [here](https://github.com/Marchopkins96/Performance-Footwear/mil
 
 </details>
 
+
+### Database Schema 
+
+- An entity relationship diagram (ERD) was created using [Lucid Chart](https://www.lucidchart.com/pages/tour). This allowed me to visually represent the connections between my data structures and streamlined the development. With this visual aid, it makes it much easier to understand and interact with my data.
+
+![Database Schema](documentation/readme_images/erd-diagram.png)
+
+[Back to Top](#table-of-contents)
+
+<br>
