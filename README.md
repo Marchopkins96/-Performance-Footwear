@@ -84,3 +84,121 @@ View milestones [here](https://github.com/Marchopkins96/Performance-Footwear/mil
 
 <br>
 
+## Structure 
+
+### Wireframes
+
+- Wireframes have been created for all pages of the site. wireframes were crafted for mobile and desktop dimensions. [Balsamiq](https://balsamiq.com/) was employed as the tool for creating the site's wireframes.
+
+### Home Page Wireframes
+
+<details>
+<summary>Click to View Home Page wireframes</summary>
+
+#### Mobile
+![screenshot](documentation/wireframes/wireframe-home-page-mobile-Large.png)
+
+
+#### Desktop
+![screenshot](documentation/wireframes/wireframe-home-page-desktop-Large.png)
+
+</details>
+
+### All Products Page Wireframes
+
+<details>
+<summary>Click to View All Products Page wireframes</summary>
+
+#### Mobile
+![screenshot](documentation/wireframes/wireframe-all-products-page-mobile-Large.png)
+
+
+#### Desktop
+![screenshot](documentation/wireframes/wireframe-all-products-page-desktop-Large.png)
+
+</details>
+
+### Product Detail Page Wireframes
+
+<details>
+<summary>Click to View Product Detail Page wireframes</summary>
+
+#### Mobile
+![screenshot](documentation/wireframes/wireframe-product-detail-mobile-Large.png)
+
+
+#### Desktop
+![screenshot](documentation/wireframes/wireframe-product-detail-desktop-Large.png)
+
+</details>
+
+### Basket Page Wireframes
+
+<details>
+<summary>Click to View Basket Page wireframes</summary>
+
+#### Mobile
+![screenshot](documentation/wireframes/wireframe-basket-page-mobile-Large.png)
+
+
+#### Desktop
+![screenshot](documentation/wireframes/wireframe-basket-page-desktop-Large.png)
+
+</details>
+
+### Checkout Page Wireframes
+
+<details>
+<summary>Click to View Checkout Page wireframes</summary>
+
+#### Mobile
+![screenshot](documentation/wireframes/wireframe-checkout-page-mobile-Large.png)
+
+
+#### Desktop
+![screenshot](documentation/wireframes/wireframe-checkout-page-desktop-Large.png)
+
+</details>
+
+### Contact Page Wireframes
+
+<details>
+<summary>Click to View Contact Page wireframes</summary>
+
+#### Mobile
+![screenshot](documentation/wireframes/wireframe-contact-us-mobile-Large.png)
+
+
+#### Desktop
+![screenshot](documentation/wireframes/wireframe-contact-us-desktop-Large.png)
+
+</details>
+
+### Wishlist Page Wireframes
+
+<details>
+<summary>Click to View Wishlist Page wireframes</summary>
+
+#### Mobile
+![screenshot](documentation/wireframes/wireframe-wishlist-mobile-Large.png)
+
+
+#### Desktop
+![screenshot](documentation/wireframes/wireframe-wishlist-desktop-Large.png)
+
+</details>
+
+### Edit Reviews Wireframes
+
+<details>
+<summary>Click to View Edit Reviews wireframes</summary>
+
+#### Mobile
+![screenshot](documentation/wireframes/wireframe-reviews-mobile-Large.png)
+
+
+#### Desktop
+![screenshot](documentation/wireframes/wireframe-reviews-desktop-Large.png)
+
+</details>
+
