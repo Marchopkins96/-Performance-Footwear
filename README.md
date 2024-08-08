@@ -294,3 +294,126 @@ View milestones [here](https://github.com/Marchopkins96/Performance-Footwear/mil
 
 - Certain pages on the site are reserved exclusively for users who are logged in. Links to the these pages appear in the Navbar when a user is logged in.
 - The wishlist functionality is for users who have a registered account with us.
+
+<br>
+
+### Product Filtration
+![Main-nav Dropdown](documentation/readme_images/product-filtering.png)
+
+- Users can filter products by gender, type of product, by brand and sale items.
+
+![Filter](documentation/readme_images/sort-by.png)
+
+- When on the products page users can filter the product by price, rating, name, category and brand.
+
+<br>
+
+### Search Bar
+![Search Bar Image](documentation/readme_images/search-bar.png)
+
+![Search product](documentation/readme_images/product-search.png)
+
+![No result search](documentation/readme_images/no-results-search.png)
+
+![Search Bar Error](documentation/readme_images/no-search-criteria.png)
+
+- Users can use the search bar to search for specific products (first image above) that they want to view. The search is matched with the product name and description, as long as the search relates to a product it will show results.
+- The user is also shown how many results meet their search (second image above).
+- If search criteria does not relate to a product it will not return any results (third image above).
+- If a user tries to search without inputting any search criteria an error is shown (fourth image above).
+
+<br>
+
+### Sale Page
+
+![Sale image](documentation/readme_images/product-sale.png)
+
+- This page displays all the sale products, it can also be filtered by gender.
+
+<br>
+
+### Product Details Page
+
+![Product Detail Image](documentation/readme_images/product.detail-page.png)
+
+- The product detail page displays the product image, name, regular price, sale price (if applicable), brand, category, rating, option to add to wishlist, product description, country of origin, materials, option to select size, select quantity and add product to cart.
+
+![Country](documentation/readme_images/contry-dropdown.png)
+
+![Materials](documentation/readme_images/materials-dropdown.png)
+
+- Country of origin and Materials can be viewed when the dropdown menu is clicked by the user.
+
+![Review not signed in](documentation/readme_images/review-not-signed-in.png)
+
+- If the user is not signed in they are prompted to do so if they wish to leave a product review.
+
+![Review product](documentation/readme_images/review-product.png)
+
+- If the user is authorized. they can click on "Review this product" and a dropdown menu will appear.
+
+![Review dropdown](documentation/readme_images/review-dropdown.png)
+
+- Once clicked, the window opens and the user is able to write a review and hit the submit button.
+
+![Review success](documentation/readme_images/review-success.png)
+
+- When a review is submitted the user will see a success message telling them the review was submitted successfully.
+
+![Review displayed](documentation/readme_images/review-displayed.png)
+
+![Review edit](documentation/readme_images/edit-review.png)
+
+- If a users wishes to do so they can edit their review.
+
+![Review edit success](documentation/readme_images/review-updated.png)
+
+- When the review is updated a success message is displayed to the user.
+
+![Review delete](documentation/readme_images/delete-review.png)
+
+![Review delete success](documentation/readme_images/delete-review-success.png)
+
+- If a user decides they want to delete a review they can simply hit the delete review button.
+- A success message is displayed once this action is complete.
+
+![Back to Top Button](documentation/readme_images/back-to-top-button.png)
+
+- To further add to a positive user experience a back to the top button has been added. It is located in the bottom right of the page and once clicked the user will be returned to the top of the given page.
+
+<br>
+
+[Back to Top](#table-of-contents)
+
+### Wishlist Page
+![Wishlist page](documentation/readme_images/wiahlist-with-product-added.png)
+- The wishlist offers the users a place to store all the products that they like and may wish to purchase at a later date.
+- The wishlist page provides the product image, name, description, regular or sale price and a link back to the product detail page.
+- The page also has a delete button next to each individual product as well as "clear wishlist" button at the top of the page which empties everything from the wishlist if pressed.
+- If a user is yet to add to their wishlist they will be met with the below message.
+
+![Wishlist empty](documentation/readme_images/wishlist-empty.png)
+
+- To add a product to your wishlist, you need to click on the love heart icon.
+
+![Wishlist icon](documentation/readme_images/wishlist-icon.png)
+
+- Once a product is successfully added to the wishlist a success message id displayed.
+
+![Wishlist Success](documentation/readme_images/wishlist-success.png)
+
+- If you click on the heart icon again, this will remove the item from the wishlist and a message will display to confirm this.
+
+![Wishlist remove](documentation/readme_images/wishlist-remove-product-message.png)
+
+- When on the wishlist page, if a user clicks on the binoculars icon this redirects you to the products page.
+- You can remove an item from the wishlist by clicking the bin icon.
+
+![Wishlist view remove](documentation/readme_images/view-or-remove-product-wishlist.png)
+
+
+[Back to Top](#table-of-contents)
+
+<br>
+
+
