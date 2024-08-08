@@ -10,3 +10,27 @@ Users who visit the site are met with a user friendly experience, They can easil
 
 <br>
 
+## UX
+
+### Target Users
+
+- Running enthusiasts who have an active lifestyle and are interested in quality products.
+- Users looking to browse and purchase running shoes and related accessories.
+- Users who look for the top brands in the running shoe industry.
+
+### Site Goals
+
+- Allow users to view and purchase products as effortlessly as possible.
+- Allow users to swiftly search for the products they like.
+- Provide users with the option to create an account to store wishlist items and view orders.
+- Allow users to store their preffered delivery address and be able to easily edit this.
+- Offer users the ability to contact performance Footwear online.
+
+### Peoject Goals
+
+- Develop a fubctional e-commerce web application.
+- Ensure users are met with a user-friendly interface to allow easy navigation around the site.
+- Offer users a seamless shopping experience.
+- Intergrate exciting features, such as a wishlist and customer reviews, enhancing CRUD functionality.
+
+<br>
