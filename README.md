@@ -10,7 +10,9 @@ Users who visit the site are met with a user friendly experience, They can easil
 
 <br>
 
-## UX
+# UX
+
+## Strategy
 
 ### Target Users
 
@@ -34,3 +36,23 @@ Users who visit the site are met with a user friendly experience, They can easil
 - Intergrate exciting features, such as a wishlist and customer reviews, enhancing CRUD functionality.
 
 <br>
+
+[Back to Top](#table-of-contents)
+
+<br>
+
+## **Agile Planning**
+
+This project followed an agile planning approach, based on user stories. Each user story was carefully planned and included in a specific iteration.
+To prioritize development tasks, each feature was catergorized as Must Have and Should Have. Catergorizing each user story helped determine the importance of each feature.
+
+View the project board [here](https://github.com/users/Marchopkins96/projects/7).
+
+<details>
+<summary> Project Board
+</summary>
+
+![Project Board](documentation/readme_images/user-stories.png)
+</details>
+
+## User Stories 
