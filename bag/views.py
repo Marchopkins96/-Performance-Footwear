@@ -10,8 +10,13 @@ def view_bag(request):
 
 # Function to add items to the bag
 def add_to_bag(request, item_id):
-
     product = get_object_or_404(Product, pk=item_id)
+    
+    quantity_str = request.POST.get("quantity", "")
+    if not quantity_str:
+        messages.error(request, 'Quantity must be specified')
+        return redirect(request.POST.get("redirect_url", reverse("home")))
+
     quantity = int(request.POST.get('quantity'))
     redirect_url = request.POST.get('redirect_url')
     size = None
