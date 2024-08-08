@@ -44,7 +44,7 @@ Users who visit the site are met with a user friendly experience, They can easil
 ## **Agile Planning**
 
 This project followed an agile planning approach, based on user stories. Each user story was carefully planned and included in a specific iteration.
-To prioritize development tasks, each feature was catergorized as Must Have and Should Have. Catergorizing each user story helped determine the importance of each feature.
+To prioritize development tasks, each feature was catergorized as Must Have, Should Have, Could Have and Wont Have. Catergorizing each user story helped determine the importance of each feature.
 
 View the project board [here](https://github.com/users/Marchopkins96/projects/7).
 
@@ -56,3 +56,31 @@ View the project board [here](https://github.com/users/Marchopkins96/projects/7)
 </details>
 
 ## User Stories 
+
+* Based on the user stories created, A project implementation plan was developed.
+You can view the user stories [here](https://github.com/Marchopkins96/Performance-Footwear/issues?q=is%3Aissue+is%3Aclosed).
+
+<details>
+<summary> User Stories
+</summary>
+
+![User Stories](documentation/readme_images/issues-list.png)
+</details>
+
+* Using the MoSCoW principle (Must Have, Should Have, Could Have, Won't Have), iterations were planned for the implementation of the user stories.
+
+View milestones [here](https://github.com/Marchopkins96/Performance-Footwear/milestones).
+
+<details>
+<summary> Milestones
+</summary>
+
+![Milestones](documentation/readme_images/iterations-list.png)
+</details>
+
+<br>
+
+[Back to Top](#table-of-contents)
+
+<br>
+
