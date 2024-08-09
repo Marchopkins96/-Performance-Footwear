@@ -562,4 +562,97 @@ View milestones [here](https://github.com/Marchopkins96/Performance-Footwear/mil
 
 ### My Account Dropdown Menu
 
+<details>
+<summary>View account dropdown as a signed in & signed out user</summary>
+
+### Logged out view
+![Logged out](documentation/readme_images/my-account-not-loggedin.png)
+
+### Logged in view
+![Logged In](documentation/readme_images/my-account-logged-in.png)
+</details>
+
+- If a user is not logged in, they will be given the option to either register for an account or log into an existing account.
+- If a user is logged in, the My Account drop-down in the navigation menu will contain a link to the user's profile.
+- If the user is logged in and has administrator rights, they will have access to "Product Management".
+
+<details>
+<summary>View product management page</summary>
+
+![Product Manage](documentation/readme_images/product-management.png)
+</details>
+
+- If the user is logged in and has admin permissions, they can add new products to the site from the admin dropdown in the nav menu by selecting "Product Management".
+- The add product page contains a form for the admin to fill out with the details of the new product.
+
+<details>
+<summary>View edit existing product page</summary>
+
+![Edit Product](documentation/readme_images/product-management-edit-prod.png)
+</details>
+
+- If the user is logged in and has admin permissions, they can edit existing site products by clicking the edit icon on either the product card on the all products page or the individual product details page. 
+- The edit product page contains the same form as the add product page but the fields are already populated with the product's current data from the database.
+
+<details>
+<summary>View add, edit & delete product messages</summary>
+
+### Add product
+![Add](documentation/readme_images/add-prod-msg.png)
+
+### Edit product
+![Edit](documentation/readme_images/current-prod-edit.png)
+
+### Delete product
+![Delete](documentation/readme_images/product-deleted.png)
+</details>
+
+<br>
+
+[Back to Top](#table-of-contents)
+
+<br>
+
+### User sign up page
+<details>
+<summary>View user sign up</summary>
+
+![Sign up](documentation/readme_images/user-signup.png)
+</details>
+
+- Users without an account can register by filling out the sign up form. Once filled out and the sign up button has been pressed the user will then be prompted to verify their email address.
+
+<details>
+<summary>View verify email page & email user recieves</summary>
+
+### Verify email page
+![Verify](documentation/readme_images/verify-email.png)
+
+### Email to user
+![Email](documentation/readme_images/confirm-email.png)
+</details>
+
+- When a user has signed up for an account they are instructed to verify their email address.
+
+### User sign in page
+<details>
+<summary>View sign in page</summary>
+
+![sign in](documentation/readme_images/email-confirmed.png)
+</details>
+
+- When a user has verified their email they are then met with a sign in page. They can enter their unique username and password to enter the site as a verified user.
+- They can tick the remember me button if they wish.
+
+<details>
+<summary>View sign in message</summary>
+
+![sign in msg](documentation/readme_images/success-sigin.png)
+</details>
+
+<br>
+
+[Back to Top](#table-of-contents)
+
+<br>
 
