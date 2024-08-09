@@ -228,44 +228,77 @@ View milestones [here](https://github.com/Marchopkins96/Performance-Footwear/mil
 ## Existing Features
 
 ### Home Page 
+<details>
+<summary>View home page</summary>
+
 ![Hero Image](documentation/readme_images/home-page-header.png)
+</details>
+
 - The Home page features a carousel of 3 images to instantly catch the attentions of the users visiting the site.
 
 <br>
 
 ### Marketing Section
+<details>
+<summary>View marketing section</summary>
+
 ![Marketing section](documentation/readme_images/marketing-text.png)
+</details>
+
 - The marketing section is presented neatly in the middle of the homepage with more images relating to the sites purpose.
 - Key words are used within the marketing text that link back to the brand name and also to aid search engine optimization.
 
 <br>
 
 ### Footer 
+<details>
+<summary>View footer</summary>
+
 ![Footer](documentation/readme_images/footer.png)
+</details>
+
 - The footer is present on all pages of the site.
 - It features links to contact, returns, privacy policy and links back to the home page.
 - The footer also incorperates links to our MailChimp newsletter signup and a link to our FaceBook marketing page.
 
+<details>
+<summary>View subscription success</summary>
+
 ![Subscription](documentation/readme_images/subscription-success.png)
+</details>
 
 <br>
 
 ### Returns Page 
+<details>
+<summary>View returns page</summary>
+
 ![Returns Page Image](documentation/readme_images/returns.png)
+</details>
 
 - Information of our returns policy is provided for users who desire to return items to us.
 
 <br>
 
 ### Contact Page
+<details>
+<summary>View contact page</summary>
+
 ![Contact Page Image](documentation/readme_images/contact-us.png)
+</details>
+
 - Contact information is presented in a clear and consise manner. The business phone number, address and email are displayed seperately at the top of the page.
 - The page also includes a contact form enabling users to contact us. The message submitted by the user is stored in the admin panel.
 
 <br>
 
 ### Privacy Policy
+<details>
+<summary>View privacy policy</summary>
+
 ![Privacy Policy Image](documentation/readme_images/privacy-policy.png)
+</details>
+
 - A privacy policy is a legal document that describes how a website collects, uses, discloses and manages the personal information of its users or customers. It contains information about the types of data collected, the purposes for collecting it, storage and security methods, and the rights of users regarding their personal information.
 
 <br>
@@ -275,22 +308,42 @@ View milestones [here](https://github.com/Marchopkins96/Performance-Footwear/mil
 <br>
 
 ### Main Nav Menu
+<details>
+<summary>View information banners</summary>
+
+### Free Delivery
 ![Nav](documentation/readme_images/free-delivery-banner.png)
+
+### Motivational Message
 ![Nav](documentation/readme_images/strive-message.png)
+
+### Free Returns
 ![Nav](documentation/readme_images/free-returns.png)
+</details>
 
 - Displayed at the very top of the screen, there is information for the user regarding returns and delivery, as well as a phrase of motivation for visitors to the site.
 
+
+<details>
+<summary>View main navigation</summary>
+
 ![Main Nav Image](documentation/readme_images/main-nav-header.png)
+</details>
 
 - Consistent throughout the site, the user will see the main navigation menu. Featuring a search bar, account/profile access, basket link with subtotal if items are in the basket, as well as links to filter products by gender, brand, type of product and sale items. When a user creates an account they will also have access to the wishlist.
 
 <br>
 
 ### Restricted Pages
+<details>
+<summary>View logged in Vs logged out views for users</summary>
+
+### Logged in view
 ![Logged in nav](documentation/readme_images/restricted-pages.png)
 
+### Logged out view
 ![Logged out nav](documentation/readme_images/logged-out-nav.png)
+</details>
 
 - Certain pages on the site are reserved exclusively for users who are logged in. Links to the these pages appear in the Navbar when a user is logged in.
 - The wishlist functionality is for users who have a registered account with us.
@@ -298,24 +351,40 @@ View milestones [here](https://github.com/Marchopkins96/Performance-Footwear/mil
 <br>
 
 ### Product Filtration
+<details>
+<summary>View product filtering</summary>
+
 ![Main-nav Dropdown](documentation/readme_images/product-filtering.png)
+</details>
 
 - Users can filter products by gender, type of product, by brand and sale items.
 
+<details>
+<summary>View sort by options</summary>
+
 ![Filter](documentation/readme_images/sort-by.png)
+</details>
 
 - When on the products page users can filter the product by price, rating, name, category and brand.
 
 <br>
 
 ### Search Bar
+<details>
+<summary>View different search features</summary>
+
+### Search Bar
 ![Search Bar Image](documentation/readme_images/search-bar.png)
 
+### Product search result
 ![Search product](documentation/readme_images/product-search.png)
 
+### No search results
 ![No result search](documentation/readme_images/no-results-search.png)
 
+### No search criteria message
 ![Search Bar Error](documentation/readme_images/no-search-criteria.png)
+</details>
 
 - Users can use the search bar to search for specific products (first image above) that they want to view. The search is matched with the product name and description, as long as the search relates to a product it will show results.
 - The user is also shown how many results meet their search (second image above).
@@ -325,8 +394,11 @@ View milestones [here](https://github.com/Marchopkins96/Performance-Footwear/mil
 <br>
 
 ### Sale Page
+<details>
+<summary>View sale page</summary>
 
 ![Sale image](documentation/readme_images/product-sale.png)
+</details>
 
 - This page displays all the sale products, it can also be filtered by gender.
 
@@ -415,5 +487,7 @@ View milestones [here](https://github.com/Marchopkins96/Performance-Footwear/mil
 [Back to Top](#table-of-contents)
 
 <br>
+
+### My Account Dropdown Menu
 
 
