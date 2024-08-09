@@ -405,51 +405,98 @@ View milestones [here](https://github.com/Marchopkins96/Performance-Footwear/mil
 <br>
 
 ### Product Details Page
+<details>
+<summary>View product detail page</summary>
 
 ![Product Detail Image](documentation/readme_images/product.detail-page.png)
+</details>
 
 - The product detail page displays the product image, name, regular price, sale price (if applicable), brand, category, rating, option to add to wishlist, product description, country of origin, materials, option to select size, select quantity and add product to cart.
 
+<details>
+<summary>View Country of origin & Materials Dropdowns</summary>
+
+### Country
 ![Country](documentation/readme_images/contry-dropdown.png)
 
+### Materials
 ![Materials](documentation/readme_images/materials-dropdown.png)
+</details>
 
 - Country of origin and Materials can be viewed when the dropdown menu is clicked by the user.
 
+<details>
+<summary>View review as a signed out user</summary>
+
 ![Review not signed in](documentation/readme_images/review-not-signed-in.png)
+</details>
 
 - If the user is not signed in they are prompted to do so if they wish to leave a product review.
 
+<details>
+<summary>View review as a signed in user</summary>
+
 ![Review product](documentation/readme_images/review-product.png)
+</details>
 
 - If the user is authorized. they can click on "Review this product" and a dropdown menu will appear.
 
+<details>
+<summary>View review drop down</summary>
+
 ![Review dropdown](documentation/readme_images/review-dropdown.png)
+</details>
 
 - Once clicked, the window opens and the user is able to write a review and hit the submit button.
 
+<details>
+<summary>View review success message</summary>
+
 ![Review success](documentation/readme_images/review-success.png)
+</details>
 
 - When a review is submitted the user will see a success message telling them the review was submitted successfully.
 
+<details>
+<summary>View display of a submitted review</summary>
+
 ![Review displayed](documentation/readme_images/review-displayed.png)
+</details>
+
+<details>
+<summary>View edit review page</summary>
 
 ![Review edit](documentation/readme_images/edit-review.png)
+</details>
 
 - If a users wishes to do so they can edit their review.
 
+<details>
+<summary>View edit review success message</summary>
+
 ![Review edit success](documentation/readme_images/review-updated.png)
+</details>
 
 - When the review is updated a success message is displayed to the user.
 
+<details>
+<summary>View delete review page & message</summary>
+
+### Delete review
 ![Review delete](documentation/readme_images/delete-review.png)
 
+### Delete review message
 ![Review delete success](documentation/readme_images/delete-review-success.png)
+</details>
 
 - If a user decides they want to delete a review they can simply hit the delete review button.
 - A success message is displayed once this action is complete.
 
+<details>
+<summary>View back to top button</summary>
+
 ![Back to Top Button](documentation/readme_images/back-to-top-button.png)
+</details>
 
 - To further add to a positive user experience a back to the top button has been added. It is located in the bottom right of the page and once clicked the user will be returned to the top of the given page.
 
@@ -458,31 +505,56 @@ View milestones [here](https://github.com/Marchopkins96/Performance-Footwear/mil
 [Back to Top](#table-of-contents)
 
 ### Wishlist Page
+<details>
+<summary>View wishlist page</summary>
+
 ![Wishlist page](documentation/readme_images/wiahlist-with-product-added.png)
+</details>
+
 - The wishlist offers the users a place to store all the products that they like and may wish to purchase at a later date.
 - The wishlist page provides the product image, name, description, regular or sale price and a link back to the product detail page.
 - The page also has a delete button next to each individual product as well as "clear wishlist" button at the top of the page which empties everything from the wishlist if pressed.
-- If a user is yet to add to their wishlist they will be met with the below message.
+
+<details>
+<summary>View empty wishlist</summary>
 
 ![Wishlist empty](documentation/readme_images/wishlist-empty.png)
+</details>
+
+- If a user is yet to add to their wishlist they will be encouraged to go back and browse the products page.
+
+<details>
+<summary>View wishlist icon</summary>
+
+![Wishlist icon](documentation/readme_images/wishlist-icon.png)
+</details>
 
 - To add a product to your wishlist, you need to click on the love heart icon.
 
-![Wishlist icon](documentation/readme_images/wishlist-icon.png)
-
-- Once a product is successfully added to the wishlist a success message id displayed.
+<details>
+<summary>View wishlist success message</summary>
 
 ![Wishlist Success](documentation/readme_images/wishlist-success.png)
+</details>
 
-- If you click on the heart icon again, this will remove the item from the wishlist and a message will display to confirm this.
+- Once a product is successfully added to the wishlist a success message is displayed.
+
+<details>
+<summary>View remove from wishlist message</summary>
 
 ![Wishlist remove](documentation/readme_images/wishlist-remove-product-message.png)
+</details>
+
+- If a user clicks on the heart icon again, this will remove the item from the wishlist and a message will display to confirm this.
+
+<details>
+<summary>View view & remove products in the wishlist</summary>
+
+![Wishlist view remove](documentation/readme_images/view-or-remove-product-wishlist.png)
+</details>
 
 - When on the wishlist page, if a user clicks on the binoculars icon this redirects you to the products page.
 - You can remove an item from the wishlist by clicking the bin icon.
-
-![Wishlist view remove](documentation/readme_images/view-or-remove-product-wishlist.png)
-
 
 [Back to Top](#table-of-contents)
 
