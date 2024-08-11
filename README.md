@@ -684,6 +684,14 @@ View milestones [here](https://github.com/Marchopkins96/Performance-Footwear/mil
 </details>
 
 - When a user has successfully created an account they can then view their profile page. This page contains information about the default delivery address if the usets chooses to save this information. It also features a users order history.
+
+<details>
+<summary>View order history</summary>
+
+![order history](documentation/readme_images/user-order-history.png)
+
+</details>
+
 - Users can click the order number link and when clicked it takes the user the order confirmation page relating to a specific order.
 
 <details>
@@ -701,3 +709,48 @@ View milestones [here](https://github.com/Marchopkins96/Performance-Footwear/mil
 
 <br>
 
+### Shopping bag Page
+<details>
+<summary>View shopping bag page</summary>
+
+![shopping bag](documentation/readme_images/item-added-to-bag.png)
+
+</details>
+
+- The shopping bag page can be accessed via the main navigation bar by clicking on the icon in the top right hand corner. The amount spent will tally up as more products are added to the bag.
+- The price, quantity and sub total are all dispalyed for the user.
+
+<details>
+<summary>View empty shopping bag</summary>
+
+![empty bag](documentation/readme_images/empty-shopping-bag.png)
+
+</details>
+
+- If a users shopping bag is empty a message will display to say this and a 'Keep Shopping' button prompts users to go back and browse the site.
+
+<details>
+<summary>View item quantity selector</summary>
+
+![qty select](documentation/readme_images/product-qty-selector.png)
+
+</details>
+
+- A user can update their quantity by using the plus and minus buttons. When they are happy with the quantity of items they can press the update button to update the sub total of the bag. A user can add a max of 99 items to the bag.
+- A user can delete a product from the bag by pressing the red bin icon.
+
+<details>
+<summary>View grand total</summary>
+
+![total](documentation/readme_images/bag-total-secure-checkout.png)
+
+</details>
+
+- The bag total is clearly displayed to the user with additional delivery charges if applicable. when these two are added up the grand total is presented to the user. Orders over £50 are free for deliverey anything under this amount delivery is calculated at 10% of the order amount.
+- If a user is happy with their bag and wish to continue to purchase they can press the 'Secure Checkout' button, If not they can also press the 'Keep Shopping' button to continue browsing products.
+
+<br>
+
+[Back to Top](#table-of-contents)
+
+<br>
