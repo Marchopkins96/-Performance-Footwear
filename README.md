@@ -795,3 +795,19 @@ View milestones [here](https://github.com/Marchopkins96/Performance-Footwear/mil
 - Once the order is completed, the user is redirected to the order confirmation page informing them that the order has been successful and an email has been sent to the one they provided.
 - The page contains all the details provided by the user and what they purchased.
 - This page can be accessed again from the user profile page by clicking on the order number of a past order.
+
+<details>
+<summary>View confirmation email</summary>
+
+![email confirm](documentation/readme_images/order-confirmation-email.png)
+
+</details>
+
+- Once the order is completed the user will receive an email containing a unique order number and a receipt of the total payment amount.
+
+<br>
+
+[Back to Top](#table-of-contents)
+
+<br>
+
