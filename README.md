@@ -656,3 +656,48 @@ View milestones [here](https://github.com/Marchopkins96/Performance-Footwear/mil
 
 <br>
 
+### User sign out page
+<details>
+<summary>View user Sign out</summary>
+
+![sign out](documentation/readme_images/user-signout.png)
+</details>
+
+- If a user is logged into their account and wishes to log out they can do so my simply pressing the sign out button.
+- A user will not be instantly logged out and they can cancel the action with the cancel button if they wish.
+
+<details>
+<summary>View log out success message</summary>
+
+![sign out success](documentation/readme_images/signout-message.png)
+
+</details>
+
+- When a user logs out of their account they will see a message on screen to confirm this.
+
+### User Profile Page
+<details>
+<summary>View user profile page</summary>
+
+![user profile](documentation/readme_images/user-profile.png)
+
+</details>
+
+- When a user has successfully created an account they can then view their profile page. This page contains information about the default delivery address if the usets chooses to save this information. It also features a users order history.
+- Users can click the order number link and when clicked it takes the user the order confirmation page relating to a specific order.
+
+<details>
+<summary>View user details input</summary>
+
+![details](documentation/readme_images/user-profile-details-input.png)
+
+</details>
+
+- If the users wishes they can fill out the form provided. When they press the 'Update Information' button the information is then saved and the details provided will be used as default.
+
+<br>
+
+[Back to Top](#table-of-contents)
+
+<br>
+
