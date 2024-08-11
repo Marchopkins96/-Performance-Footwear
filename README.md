@@ -754,3 +754,44 @@ View milestones [here](https://github.com/Marchopkins96/Performance-Footwear/mil
 [Back to Top](#table-of-contents)
 
 <br>
+
+### Checkout page
+<details>
+<summary>View checkout page</summary>
+
+![checkout](documentation/readme_images/checkout-page.png)
+
+</details>
+
+- The checkout page features a form for the users shipping information, this will be prefilled if the user has added a dfault address on the user profile page. The page also features an order summary.
+
+<details>
+<summary>View chewckout details</summary>
+
+![checkout details](documentation/readme_images/checkout-details.png)
+
+</details>
+
+- If they have not saved information to the user profile page prior to checkout they can do so by checking the 'Save this delivery information to my profile' box.
+- Users payments will be processed through Stripe.
+- Once a user has added all delivery information and card details the user can press the 'complete order' button or 'adjust bag' if they still need to adjust something.
+- One last reminder of the total amount is issued under the buttons.
+
+<details>
+<summary>View checkout order processing</summary>
+
+![Order processing](documentation/readme_images/load-spinner.png)
+
+</details>
+
+- When the order is completed the user is notified that their order is being processed by a loading spinner covering the screen. once order is complete the user is redircted to the order confirmation page.
+<details>
+<summary>View order confirmation</summary>
+
+![order confirmation](documentation/readme_images/order-confirmation.png)
+
+</details>
+
+- Once the order is completed, the user is redirected to the order confirmation page informing them that the order has been successful and an email has been sent to the one they provided.
+- The page contains all the details provided by the user and what they purchased.
+- This page can be accessed again from the user profile page by clicking on the order number of a past order.
