@@ -811,3 +811,26 @@ View milestones [here](https://github.com/Marchopkins96/Performance-Footwear/mil
 
 <br>
 
+### Error pages
+<details>
+<summary>View 404 & 500 error page</summary>
+
+### 404
+![404](documentation/readme_images/404-error.png)
+
+### 500
+![500](documentation/readme_images/500-error.png)
+
+</details>
+
+- If a user finds themselves on a page that either doesnt exist or they do not have the rights to be there i.e admin only pages, an error will display on screen with a button directing them back to the products page.
+
+<br>
+
+[Back to Top](#table-of-contents)
+
+<br>
+
+### Future features
+
+
