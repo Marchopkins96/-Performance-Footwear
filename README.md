@@ -856,3 +856,33 @@ View milestones [here](https://github.com/Marchopkins96/Performance-Footwear/mil
 [Back to Top](#table-of-contents)
 
 <br>
+
+## **Business Model**
+
+this website operates operates a business to customer model (B2C), giving consumers the ability to purchase goods directly from a consumer. This process is designed to be as quick and easy for the user as possible. 
+
+## **Marketing Strategy**
+
+### **Social Media Marketing**
+
+A facebook marketing page was created in order to promote the website further. This facebook page will feature news about new products, notify users about offers and promotions, as well as place targeted advertising.
+
+<details>
+<summary>View images of Facebook marketing page</summary>
+
+![fb1](documentation/readme_images/facebook-page-1.png)
+
+![fb2](documentation/readme_images/facebook-page-2.png)
+</details>
+
+### **Newsletter Marketing**
+
+In the footer of the website is a [Mailchimp](https://mailchimp.com/?currency=EUR) newsletter in the footer which is used to send emails to subscribers about the latest products, promotions and discounts.
+
+<details>
+<summary>View MailChimp</summary>
+
+![mailchimp](documentation/readme_images/email-marketing.png)
+</details>
+
+[Back to Top](#table-of-contents)
