@@ -833,4 +833,26 @@ View milestones [here](https://github.com/Marchopkins96/Performance-Footwear/mil
 
 ### Future features
 
+- In the future i would like to impliment functionality that allows me to see the amount of goods sold per product, and notify customers if a product or size of a product are out of stock.
+- Allow users to rate products on the product details page, currently ratings are inputted by admin when adding products to the database. It would give a more accurate reading on ratings if the customers were doing this themselves.
 
+
+## Design
+### Colour Scheme
+- White [#ffffff] was chosen as the main background colour as it offers optimum readability and creates a clean canvas for showcasing the products on the website. 
+- Black [#000000] was chosen as the colour for the main textual parts of the site and the footer. Readability is maintained throughout and offeres a timeless aesthetic.
+- Grey [#f1f1f1] was used for text on the footer, offering a classy look.
+- Blue [#007bff] was used to colour some buttons on the site giving a burst of colour and drawing attention to these elements.
+- Overall the colour scheme has been kept clean and simplistic, with this being said it still ensures the site looks clean and inviting for users.
+
+### Typography
+- Lato font has been used throughout the site, this font was selected as it maintains excellent readability on different devices and offers a more modern and versatile look.
+
+### Site images
+- All the images on this site were used as educational material only, images were used from the following sites: [Freepik](https://www.freepik.com/), [Nike](https://www.nike.com/), [New Balance](https://www.newbalance.co.uk/)
+
+<br>
+
+[Back to Top](#table-of-contents)
+
+<br>
