@@ -277,7 +277,7 @@ footer {
     padding: 1rem;
 }
 
-/* fixed top navbar only on medium and up */
+
 @media (min-width: 992px) {
     .fixed-top-desktop-only {
         position: fixed;
@@ -292,7 +292,7 @@ footer {
     }
 }
 
-/* pad the top a bit when navbar is collapsed on mobile */
+
 @media (max-width: 991px) {
     .header-container {
         padding-top: 93px;
