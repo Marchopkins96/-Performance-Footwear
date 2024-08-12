@@ -977,3 +977,56 @@ For all testing, please refer to the [TESTING.md](TESTING.md) file.
 [Back to Top](#table-of-contents)
 
 <br>
+
+# Bugs
+
+Erros that i encounterd while creating this website and the fixes put in place to resolve issue.
+
+### Exception type: DataError at checkout | Exception value: Value too long for type character varying (2)
+
+- #### Issue
+
+    - When attempting to add a product to the bag with a size selected an error was occuring as the sizes had more than two characters.
+
+- #### Fix
+
+<details>
+<summary>View code change</summary>
+
+![bug 1](documentation/readme_images/bug-fix-2.png)
+</details>
+
+- Product_size in the OrderLineItem model was modified to a CharField to allow for more characters.
+
+
+### An empty value could be entered into a products quantity field rendering a ValueError
+
+- #### Issue 
+- If the quantity field is left blank and you try to add it to the bag that is when a ValueError occurs.
+<details>
+<summary>View Error</summary>
+
+![bug 2](documentation/readme_images/bug-error.png)
+</details>
+
+- #### Fix 
+
+- The following code was added:
+<details>
+<summary>View code added</summary>
+
+![code added](documentation/readme_images/bug-fix-code-1.png)
+</details>
+
+- This code checks the presense of a value in the quantity box. If the value is missing, an error message is displayed to the user instructing them that a value needs to be specified.
+<details>
+<summary>View error message</summary>
+
+![qty msg](documentation/readme_images/specify-qty-msg.png)
+</details>
+
+<br>
+
+[Back to Top](#table-of-contents)
+
+<br>
