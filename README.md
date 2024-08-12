@@ -886,3 +886,94 @@ In the footer of the website is a [Mailchimp](https://mailchimp.com/?currency=EU
 </details>
 
 [Back to Top](#table-of-contents)
+
+## **Search Engine Optimization (SEO)**
+
+### **Keywords**
+
+Keywords were used in the marketing text on the home page of the site. The name of the company was used in the headings of the marketing text.
+
+<details>
+<summary>View keywords</summary>
+
+![keywords](documentation/readme_images/marketing-text.png)
+</details>
+
+### **Sitemap.xml**
+
+I created a sitemap using [XML-Sitemaps](https://www.xml-sitemaps.com) for the live site [https://performance-footwear-ed28bb401f1b.herokuapp.com/](https://performance-footwear-ed28bb401f1b.herokuapp.com/)
+
+The XML file is in the root directory of the site.
+
+### **Robots.txt**
+
+The robots.txt file was created using this guide [https://www.conductor.com/academy/robotstxt/](https://www.conductor.com/academy/robotstxt/).
+
+<details>
+<summary>View Robots.txt</summary>
+
+![robots.txt](documentation/readme_images/robots-txt.png)
+</details>
+
+[Back to top](#table-of-contents)
+
+<br>
+
+# Technologies
+
+## Languages Used
+* [HTML5](https://en.wikipedia.org/wiki/HTML5)
+* [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+* [Javascript](https://en.wikipedia.org/wiki/JavaScript)
+* [Python](https://en.wikipedia.org/wiki/Python_(programming_language))
+
+## Frameworks Used
+
+* [Django](https://www.djangoproject.com/)
+* [Bootstrap](https://blog.getbootstrap.com/) 
+
+## Libraries And Installed Packages
+
+* [crispy-bootstrap4](https://pypi.org/project/crispy-bootstrap4/) - Template pack used for django-crispy-forms
+* [django-crispy-forms](https://pypi.org/project/crispy-bootstrap4/) - Used to render forms throughout the project.
+* [dj-database-url](https://pypi.org/project/dj-database-url/) - A package used to utilize DATABASE_URL environment variable.  
+* [django-allauth](https://django-allauth.readthedocs.io/en/latest/) - Allows authentication, registration and account management in Django.
+* [django-countries, v7.2.1](https://pypi.org/project/django-countries/7.2.1/) - Django application used to provide country choices for use with forms, and a country field for models.
+* [gunicorn](https://gunicorn.org/) - A Python WSGI HTTP Server for UNIX.
+* [psycopg2](https://pypi.org/project/psycopg2/) - A PostgreSQL database adapter.
+* [boto3==1.26.27](https://pypi.org/project/boto3/) - An Amazon Web Services (AWS) software development kit (SDK) used to connect to the S3 bucket
+* [Black](https://pypi.org/project/black/) - A Python code formatter.
+* [django storages](https://django-storages.readthedocs.io/en/latest/) - Collection of custom storage backends for Django.
+* [stripe==7.8.1](https://pypi.org/project/stripe/) - A Python library for Stripe’s API.
+* [django-summernote](https://github.com/summernote/django-summernote) - Is a simple WYSIWYG editor.
+
+<br>
+
+[Back to Top](#table-of-contents)
+
+<br>
+
+## Tools And Resources
+* [GitPod](https://www.gitpod.io/)
+* [GitHub](https://github.com/)
+* [Heroku](https://heroku.com)
+* [Lucid Chart](https://www.lucidchart.com/)
+* [Coolors](https://coolors.co/)
+* [AmIResponsive](https://ui.dev/amiresponsive)
+* [PostgreSQL CI Database](https://dbs.ci-dbs.net/)
+
+<br>
+
+[Back to Top](#table-of-contents)
+
+<br>
+
+# Testing
+
+For all testing, please refer to the [TESTING.md](TESTING.md) file.
+
+<br>
+
+[Back to Top](#table-of-contents)
+
+<br>
