@@ -139,7 +139,7 @@
 {% block postloadjs %}
 {{ block.super }}
 
-<script type="text/javascript">
+<script>
 // Back to top button functionality
     $('.btt-link').click(function(e) {
         window.scrollTo(0,0)
@@ -148,7 +148,7 @@
 <!-- Including quantity input script -->
 {% include 'products/includes/quantity_input_script.html' %}
 
-<script type="text/javascript">
+<script>
     // JavaScript for updating items and removing items from the basket
     $('.update-link').click(function(e) {
         var form = $(this).prev('.update-form');
