@@ -13,8 +13,8 @@ from profiles.models import UserProfile
 from products.models import Product
 
 
+# View to display the user's wishlist
 def view_wishlist(request):
-    # View to display the user's wishlist
     if not request.user.is_authenticated:
         messages.error(
             request, "Sorry, you need to be logged in to add to your Wishlist."
@@ -29,8 +29,8 @@ def view_wishlist(request):
     return render(request, template_name, context)
 
 
+# View to add a product to the user's wishlist
 def add_wishlist(request, product_id):
-    # View to add a product to the user's wishlist
     if not request.user.is_authenticated:
         messages.error(
             request, "Sorry, you need to be logged in to add to your Wishlist."
@@ -54,8 +54,8 @@ def add_wishlist(request, product_id):
     return HttpResponseRedirect(redirect_url)
 
 
+# View to remove a product from the user's wishlist
 def remove_wishlist(request, product_id):
-    # View to remove a product from the user's wishlist
     if not request.user.is_authenticated:
         messages.error(
             request, "Sorry, you need to be logged in to edit your Wishlist."
@@ -73,8 +73,8 @@ def remove_wishlist(request, product_id):
     return HttpResponseRedirect(redirect_url)
 
 
+# View to clear all products from the user's wishlist
 def clear_wishlist(request):
-    # View to clear all products from the user's wishlist
     if not request.user.is_authenticated:
         messages.error(
             request, "Sorry, you need to be logged in to edit your Wishlist."
