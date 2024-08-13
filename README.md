@@ -10,6 +10,66 @@ Users who visit the site are met with a user friendly experience, They can easil
 
 <br>
 
+# Table of Contents 
+
+1. [UX](#ux)
+2. [Strategy](#strategy)
+    * [Target Users](#target-users)
+    * [Site Goals](#site-goals)
+    * [Project Goals](#project-goals)
+3. [Agile Planning](#agile-planning)
+    * [User Stories](#user-stories)
+4. [Structure](#structure)
+    * [Wireframes](#wireframes)
+    * [Database Schema](#database-schema) 
+5. [Main Plan](#main-plan)
+6. [Features](#features)
+    * [Existing Features](#existing-features)
+    * [Home Page](#home-page)
+      * [Marketing Section](#marketing-section)
+      * [Footer](#footer)
+    * [Returns Page](#returns-page)
+    * [Contact Page](#contact-page)
+    * [Privacy Policy](#privacy-policy)
+    * [Main Nav Menu](#main-nav-menu)
+    * [Restricted Pages](#restricted-pages)
+    * [Product Filtration](#product-filtration)
+    * [Search Bar](#search-bar)
+    * [Sale Page](#sale-page)
+    * [Product Details Page](#product-details-page)
+    * [Wishlist Page](#wishlist-page)
+    * [My Account Dropdown Menu](#my-account-dropdown-menu)
+    * [User Sign Up Page](#user-sign-up-page)
+    * [User Sign In Page](#user-sign-in-page)
+    * [User Sign Out Page](#user-sign-out-page)
+    * [User Profile Page](#user-profile-page)
+    * [Shopping Bag Page](#shopping-bag-page)
+    * [Checkout Page](#checkout-page)
+    * [Error Pages](#error-pages)
+    * [Future Features](#future-features)
+7. [Design](#design)
+      * [Colour Scheme](#colour-scheme)
+      * [Typography](#typography)
+      * [Site Images](#site-images)
+8. [Business Model](#business-model)
+    * [Marketing Strategy](#marketing-strategy)
+      * [Social Media Marketing](#social-media-marketing)
+      * [Newsletter Marketing](#newsletter-marketing)
+    * [Search Engine Optimization (SEO)](#search-engine-optimization-seo)
+      * [Keywords](#keywords)
+      * [SiteMap](#sitemapxml)
+      * [Robots](#robotstxt)
+9. [Technologies](#technologies)
+    * [Languages Used](#languages-used)
+    * [Frameworks Used](#frameworks-used)
+    * [Libraries And Installed Packages](#libraries-and-installed-packages)
+    * [Tools and Resources](#tools-and-resources)
+10. [Testing](#testing)
+11. [Bugs](#bugs)
+12. [Credits](#credits)
+13. [Deployment](#deployment)
+14. [Acknowledgements](#acknowledgements)
+
 # UX
 
 ## Strategy
@@ -1043,7 +1103,7 @@ Erros that i encounterd while creating this website and the fixes put in place t
 - [I Think Therefore I Blog Walkthrough Project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+FSD101_WTS+2023_Q3/courseware/56a2da0940b4411d8a38c2b093a22c60/4565659a34d648b8b8edd063c3182180/)
 - [SportsWear Project](https://github.com/CodeWizard-1/e-commerce/) - Code was used and adapted in the making of the Performance Footwear project.
 - [Owl Bookstore Project](https://github.com/ObiOne84/project-5-e-commerce/) - Used the structure of the README.md file for inspiration.
-- [Slack](https://app.slack.com/) - Felloe students were on hand to give advice and answer any questions.
+- [Slack](https://app.slack.com/) - Fellow students were on hand to give advice and answer any questions.
 
 ### Deployment 
 
@@ -1357,7 +1417,6 @@ You can fork this repository by using the following steps:
 
 # Acknowledgements 
 
-I would like to thank my Mentor, Mitko Bachvarov for his advice and support throughout the project.
-I would also like to express my thanks to the Code Institute tutors who are always on hand to offer help and support.
-Finally, thanks to my fellow students on Slack as this is a valuable community for help and guidance.
-
+* I would like to thank my Mentor, Mitko Bachvarov for his advice and support throughout the project.
+* I would also like to express my thanks to the Code Institute tutors who are always on hand to offer help and support.
+* Finally, thanks to my fellow students on Slack as this is a valuable community for help and guidance.
