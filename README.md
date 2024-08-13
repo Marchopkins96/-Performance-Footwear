@@ -954,13 +954,17 @@ The robots.txt file was created using this guide [https://www.conductor.com/acad
 <br>
 
 ## Tools And Resources
-* [GitPod](https://www.gitpod.io/)
-* [GitHub](https://github.com/)
-* [Heroku](https://heroku.com)
-* [Lucid Chart](https://www.lucidchart.com/)
-* [Coolors](https://coolors.co/)
-* [AmIResponsive](https://ui.dev/amiresponsive)
-* [PostgreSQL CI Database](https://dbs.ci-dbs.net/)
+* [GitPod](https://www.gitpod.io/) - Used as a coding environment.
+* [GitHub](https://github.com/) - Used for creating application repository, version control, organising workflow utilising agile functionality of GitHub project, issues and milestones.
+* [Heroku](https://heroku.com) - Used to deploy live project.
+* [Lucid Chart](https://www.lucidchart.com/) - Used for creation of ERD.
+* [AmIResponsive](https://ui.dev/amiresponsive) - Used for obtaining screenshot of the application on various devices.
+* [PostgreSQL CI Database](https://dbs.ci-dbs.net/) - Used to create a database
+* [favicon.io](https://favicon.io/) - Used to convert images into icons.
+* [JSHint](https://jshint.com/) - Used to validate JavaScript.
+* [W3C Markup Validation Service](https://validator.w3.org/) - Used to validate HTML.
+* [CSS Validation Service](https://jigsaw.w3.org/css-validator/) - Used to validate CSS.
+* [CI Python Linter](https://pep8ci.herokuapp.com/#) - Used to validate Python.
 
 <br>
 
@@ -1030,3 +1034,11 @@ Erros that i encounterd while creating this website and the fixes put in place t
 [Back to Top](#table-of-contents)
 
 <br>
+
+# Credits
+
+## Listed below are sources of information which helped and inspired me in the making of this e-commerce PP5 project
+
+- [Boutique Ado Walkthrough Project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+EA101+2021_T1/courseware/eb05f06e62c64ac89823cc956fcd8191/3adff2bf4a78469db72c5330b1afa836/)
+- [I Think Therefore I Blog Walkthrough Project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+FSD101_WTS+2023_Q3/courseware/56a2da0940b4411d8a38c2b093a22c60/4565659a34d648b8b8edd063c3182180/)
+- 
