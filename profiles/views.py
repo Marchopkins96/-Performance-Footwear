@@ -6,6 +6,7 @@ from .forms import UserProfileForm
 
 from checkout.models import Order
 
+
 @login_required
 def profile(request):
     # Retrieve the user's profile
@@ -18,11 +19,12 @@ def profile(request):
             form.save()
             messages.success(request, 'Profile updated successfully')
         else:
-            messages.error(request, 'Update failed. Please ensure the form is valid.')
+            messages.error(
+                request, 'Update failed. Please ensure the form is valid.')
     else:
         form = UserProfileForm(instance=profile)
-    
-    # Retrieve the user's order history    
+
+    # Retrieve the user's order history 
     orders = profile.orders.all()
 
     # Render the profile page with the user's profile, form, and order history
