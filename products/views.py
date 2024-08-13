@@ -14,8 +14,9 @@ from profiles.models import UserProfile
 from wishlist.models import Wishlist
 import random
 
-def all_products(request):
+
 # renders all products from database
+def all_products(request):
     products = Product.objects.all()
     user = request.user
     query = None
@@ -88,8 +89,8 @@ def all_products(request):
     return render(request, 'products/products.html', context)
 
 
-def product_detail(request, product_id):
 # view for product detail page
+def product_detail(request, product_id):
     product = get_object_or_404(Product, pk=product_id)
     reviews = Reviews.objects.filter(product=product).order_by("-created_on")
 
@@ -121,9 +122,9 @@ def product_detail(request, product_id):
         return render(request, template, context)
 
 
+# view fom admin adding a product
 @login_required
 def add_product(request):
-# view fom admin adding a product
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, only store owners can do that.')
         return redirect(reverse('home'))
@@ -147,9 +148,9 @@ def add_product(request):
     return render(request, template, context)
 
 
+# view to edit a product
 @login_required
 def edit_product(request, product_id):
-# view to edit a product
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, only store owners can do that.')
         return redirect(reverse('home'))
@@ -176,9 +177,9 @@ def edit_product(request, product_id):
     return render(request, template, context)
 
 
+# view to delete a product
 @login_required
 def delete_product(request, product_id):
-# view to delete a product
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, only store owners can do that.')
         return redirect(reverse('home'))
@@ -189,9 +190,9 @@ def delete_product(request, product_id):
     return redirect(reverse('products'))
 
 
+# view to add a review
 @login_required
 def add_review(request, product_id):
-# view to add a review
     product = get_object_or_404(Product, pk=product_id)
     if request.method == "POST":
         review_form = ReviewsForm(request.POST)
@@ -215,10 +216,10 @@ def add_review(request, product_id):
     return redirect(reverse("product_detail", args=[product.id]))
 
 
+# view to update a review
 class UpdateReview(
     LoginRequiredMixin, SuccessMessageMixin, UserPassesTestMixin, UpdateView
 ):
-# view to update a review
 
     model = Reviews
     form_class = ReviewsForm
@@ -234,8 +235,8 @@ class UpdateReview(
         return reverse("product_detail", kwargs={"product_id": self.object.product_id})
 
 
-class DeleteReview(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
 # view to delete a review
+class DeleteReview(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
 
     model = Reviews
     template_name = "products/delete_review.html"

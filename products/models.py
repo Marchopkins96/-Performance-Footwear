@@ -64,9 +64,9 @@ class Product(models.Model):
         if self.price < 0:
             raise ValidationError("Price cannot be negative.")
 
-
     def __str__(self):
         return self.name
+
 
 class ProductVariant(models.Model):
     """
@@ -89,9 +89,9 @@ class ProductVariant(models.Model):
     men_shoe_size = models.CharField(max_length=10,
                                      choices=SHOE_SIZE_CHOICES,
                                      null=True, blank=True)
-    women_shoe_size = models.CharField(max_length=10,
-                                     choices=SHOE_SIZE_CHOICES,
-                                     null=True, blank=True)
+    women_shoe_size = models.CharField(
+        max_length=10, choices=SHOE_SIZE_CHOICES,
+        null=True, blank=True)
     color = models.CharField(max_length=50, null=True, blank=True)
     stock_quantity = models.PositiveIntegerField(default=0)
 
@@ -132,7 +132,8 @@ class Reviews(models.Model):
 
     class Meta:
         constraints = [
-            models.UniqueConstraint(fields=["user", "product"], name="reviews_per_user")
+            models.UniqueConstraint(
+                fields=["user", "product"], name="reviews_per_user")
         ]
         verbose_name_plural = "Reviews"
 

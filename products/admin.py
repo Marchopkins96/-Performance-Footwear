@@ -33,6 +33,7 @@ class ProductAdmin(SummernoteModelAdmin, admin.ModelAdmin):
 
     ordering = ("name",)
 
+
 class CategoryAdmin(admin.ModelAdmin):
     list_display = (
         'friendly_name',
@@ -48,11 +49,13 @@ class ProductVariantAdmin(admin.ModelAdmin):
         'stock_quantity',
     )
 
+
 class BrandAdmin(admin.ModelAdmin):
     list_display = (
         "friendly_name",
         "name",
     )
+
 
 class ReviewsAdmin(admin.ModelAdmin):
     list_display = (
