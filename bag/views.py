@@ -1,4 +1,6 @@
-from django.shortcuts import render, redirect, reverse, HttpResponse, get_object_or_404
+from django.shortcuts import (
+    render, redirect, reverse, HttpResponse, get_object_or_404
+)
 from django.contrib import messages
 
 from products.models import Product
@@ -7,6 +9,7 @@ from products.models import Product
 def view_bag(request):
 
     return render(request, 'bag/bag.html')
+
 
 # Function to add items to the bag
 def add_to_bag(request, item_id):
@@ -46,6 +49,7 @@ def add_to_bag(request, item_id):
     request.session['bag'] = bag
     return redirect(redirect_url)
 
+
 # Function to adjust the quantity of items in the bag
 def adjust_bag(request, item_id):
 
@@ -75,6 +79,7 @@ def adjust_bag(request, item_id):
 
     request.session['bag'] = bag
     return redirect(reverse('view_bag'))
+
 
 # Function to remove items from the bag
 def remove_from_bag(request, item_id):

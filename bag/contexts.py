@@ -5,6 +5,8 @@ from products.models import Product
 from django.contrib import messages
 
 # Function to calculate and retrieve bag contents for rendering in views
+
+
 def bag_contents(request):
 
     bag_items = []
