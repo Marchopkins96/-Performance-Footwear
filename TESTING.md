@@ -412,3 +412,108 @@ It is important to test on different browsers to ensure that the site is functio
 ![home admin](documentation/validation/python-home-admin.png)
 
 </details>
+
+<details>
+<summary>Products admin.py</summary>
+
+![product admin](documentation/validation/python-product-admin.png)
+
+</details>
+
+<details>
+<summary>Products forms.py</summary>
+
+![product forms](documentation/validation/python-product-forms.png)
+
+</details>
+
+<details>
+<summary>Products models.py</summary>
+
+![product models](documentation/validation/python-product-models.png)
+
+</details>
+
+<details>
+<summary>Products urls.py</summary>
+
+![product urls](documentation/validation/python-product-urls.png)
+
+</details>
+
+<details>
+<summary>Products views.py</summary>
+
+![product views](documentation/validation/python-product-views.png)
+
+</details>
+
+<details>
+<summary>Products widgets.py</summary>
+
+![product widgets](documentation/validation/python-products-widgets.png)
+
+</details>
+
+<details>
+<summary>Profiles forms.py</summary>
+
+![profiles forms](documentation/validation/python-profile-forms.png)
+
+</details>
+
+<details>
+<summary>Profiles models.py</summary>
+
+![product models](documentation/validation/python-profiles-model.png)
+
+</details>
+
+<details>
+<summary>Profiles urls.py</summary>
+
+![profiles urls](documentation/validation/python-profiles-urls.png)
+
+</details>
+
+<details>
+<summary>Profiles views.py</summary>
+
+![profiles views](documentation/validation/python-profiles-views.png)
+
+</details>
+
+<details>
+<summary>Wishlist admin.py</summary>
+
+![wishlist admin](documentation/validation/python-wishlist-admin.png)
+
+</details>
+
+<details>
+<summary>Wishlist models.py</summary>
+
+![wishlist models](documentation/validation/python-wishlist-model.png)
+
+</details>
+
+<details>
+<summary>Wishlist urls.py</summary>
+
+![wishlist urls](documentation/validation/python-wishlist-urls.png)
+
+</details>
+
+<details>
+<summary>Wishlist views.py</summary>
+
+![wishlist views](documentation/validation/python-wishlist-views.png)
+
+</details>
+
+<br>
+
+[Back to Top](#table-of-contents)
+
+<br>
+
