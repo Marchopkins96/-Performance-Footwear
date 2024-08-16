@@ -4,6 +4,23 @@ Return back to the [README.md](README.md) file.
 
 During the development of this project, various tests were carried out to ensure the website was functioning properly. In this section, you will find documentation on all tests performed on the site.
 
+## Table of Contents
+
+### [Browser Comppatability Testing](#browser-compatability-testing-1)
+
+### [Code Validation](#code-validation-1)
+* [HTML](#html)
+* [CSS](#css)
+* [JavaScript](#javascript)
+* [Python](#python)
+
+### [Lighthouse Audit](#lighthouse-audit-1)
+
+### [Responsiveness](#responsiveness-1)
+
+### [Manual Testing](#manual-testing-1)
+
+
 ## Browser Compatability Testing
 
 It is important to test on different browsers to ensure that the site is functional as expected accross them all.

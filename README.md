@@ -1104,6 +1104,7 @@ Erros that i encounterd while creating this website and the fixes put in place t
 - [SportsWear Project](https://github.com/CodeWizard-1/e-commerce/) - Code was used and adapted in the making of the Performance Footwear project.
 - [Owl Bookstore Project](https://github.com/ObiOne84/project-5-e-commerce/) - Used the structure of the README.md file for inspiration.
 - [Slack](https://app.slack.com/) - Fellow students were on hand to give advice and answer any questions.
+- [stackoverflow.com - How to implement Add to WishList for a Product in Django?](https://stackoverflow.com/questions/56580696/how-to-implement-add-to-wishlist-for-a-product-in-django)
 
 ### Deployment 
 
