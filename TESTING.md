@@ -632,3 +632,39 @@ The deployed project has been tested on different screen sizes to ensure it is r
 ![mobile devtools](documentation/validation/responsive-mobile-3.png)
 
 </details>
+
+<details>
+<summary>Tablet (DevTools)</summary>
+
+![tablet devtools](documentation/validation/responsive-tablet.png)
+
+![tablet devtools](documentation/validation/responsive-tablet-2.png)
+
+![tablet devtools](documentation/validation/responsive-tablet-3.png)
+
+</details>
+
+<details>
+<summary>Laptop</summary>
+
+![laptop](documentation/validation/responsive-laptop.png)
+
+![laptop](documentation/validation/responsive-laptop-2.png)
+
+</details>
+
+<details>
+<summary>Desktop</summary>
+
+![Desktop](documentation/validation/responsive-desktop.png)
+
+![Desktop](documentation/validation/responsive-desktop-2.png)
+
+</details>
+
+<br>
+
+[Back to Top](#table-of-contents)
+
+<br>
+
