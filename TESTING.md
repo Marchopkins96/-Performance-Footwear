@@ -830,3 +830,9 @@ The deployed project has been tested on different screen sizes to ensure it is r
 | | CRUD reviews | admin can read, add, edit and delete reviews | Pass |
 | | CRUD contact form submissions | admin can read, add and delete a contact form submission | Pass |
 | | Manage orders | admin can manage orders | Pass |
+
+<br>
+
+[Back to Top](#table-of-contents)
+
+<br>
