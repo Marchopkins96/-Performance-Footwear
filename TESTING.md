@@ -517,3 +517,118 @@ It is important to test on different browsers to ensure that the site is functio
 
 <br>
 
+## Lighthouse Audit
+
+I have tested the deployed project using Lighthouse in Chrome developer tools to check for any major site perfromance issues.
+
+<details>
+<summary>Home</summary>
+
+![home](documentation/lighthouse/lighthouse-home-desktop.png)
+
+</details>
+
+<details>
+<summary>Proudcts</summary>
+
+![products](documentation/lighthouse/lighthouse-products.png)
+
+</details>
+
+<details>
+<summary>Product Detail</summary>
+
+![product detail](documentation/lighthouse/lighthouse-product-detail.png)
+
+</details>
+
+<details>
+<summary>Contact</summary>
+
+![contact](documentation/lighthouse/lighthouse-contact.png)
+
+</details>
+
+<details>
+<summary>HWishlist</summary>
+
+![wishlist](documentation/lighthouse/lighthouse-wishlist.png)
+
+</details>
+
+<details>
+<summary>Sign Up</summary>
+
+![sign up](documentation/lighthouse/lighthouse-signup.png)
+
+</details>
+
+<details>
+<summary>Sign In</summary>
+
+![sign in](documentation/lighthouse/lighthouse-signin.png)
+
+</details>
+
+<details>
+<summary>Search</summary>
+
+![search](documentation/lighthouse/lighthouse-search.png)
+
+</details>
+
+<details>
+<summary>Log Out</summary>
+
+![log out](documentation/lighthouse/lighthouse-logout.png)
+
+</details>
+
+<details>
+<summary>Shopping Bag</summary>
+
+![bag](documentation/lighthouse/lighthouse-shopping-bag.png)
+
+</details>
+
+<details>
+<summary>Checkout</summary>
+
+![checkout](documentation/lighthouse/lighthouse-checkout.png)
+
+</details>
+
+<details>
+<summary>Checkout Success</summary>
+
+![checkout success](documentation/lighthouse/lighthouse-checkout-success.png)
+
+</details>
+
+<details>
+<summary>Profile</summary>
+
+![profile](documentation/lighthouse/lighthouse-profile.png)
+
+</details>
+
+<br>
+
+[Back to Top](#table-of-contents)
+
+<br>
+
+## Responsiveness
+
+The deployed project has been tested on different screen sizes to ensure it is responsive.
+
+<details>
+<summary>Mobile (DevTools)</summary>
+
+![mobile devtools](documentation/validation/responsive-mobile.png)
+
+![mobile devtools](documentation/validation/responsive-mobile-2.png)
+
+![mobile devtools](documentation/validation/responsive-mobile-3.png)
+
+</details>
