@@ -802,3 +802,14 @@ The deployed project has been tested on different screen sizes to ensure it is r
 | | Enter message | Form will only submit if all fields are filled | Pass |
 | | Click Send with missing fields | Message lets user know all fields are required | Pass |
 | | Click Send with all valid fields | The user will see a success message in the upper right corner and administrators in the admin panel will see this message | Pass |
+| Admin Panel | | | |
+| | Add product | admin can add products | Pass |
+| | Edit product | admin can edit products | Pass |
+| | Delete product | admin can delete products | Pass |
+| | Add brand | admin can add brands | Pass |
+| | Add categories | admin can add categories | Pass |
+| | Add product variants | admin can add product variants | Pass |
+| | Add reviews | admin can add reviews | Pass |
+| | CRUD reviews | admin can read, add, edit and delete reviews | Pass |
+| | CRUD contact form submissions | admin can read, add and delete a contact form submission | Pass |
+| | Manage orders | admin can manage orders | Pass |
