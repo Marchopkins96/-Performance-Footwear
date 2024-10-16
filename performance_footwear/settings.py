@@ -30,10 +30,12 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 
-DEBUG = 'DEVELOPMENT' in os.environ
+#DEBUG = 'DEVELOPMENT' in os.environ
+DEBUG = True
 
-ALLOWED_HOSTS = ['8000-marchopkins-performance-r6zs2ybvt6o.ws.codeinstitute-ide.net', 'performance-footwear-ed28bb401f1b.herokuapp.com',]
+ALLOWED_HOSTS = ['8000-marchopkins-performance-m55cewuhb1s.ws.codeinstitute-ide.net', 'performance-footwear-ed28bb401f1b.herokuapp.com',]
 
+CSRF_TRUSTED_ORIGINS = ['https://*.8000-marchopkins-performance-m55cewuhb1s.ws.codeinstitute-ide.net']
 
 # Application definition
 
